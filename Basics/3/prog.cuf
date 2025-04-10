@@ -1,0 +1,40 @@
+! Kernel definition
+attributes(global) subroutine ksaxpy( n, a, x, y )
+    real, dimension(*) :: x,y
+    real, value :: a
+    integer, value :: n, i
+    i = (blockidx%x-1) * blockdim%x + threadidx%x
+    if( i <= n ) y(i) = a * x(i) + y(i)
+end subroutine
+
+! Host subroutine
+subroutine solve( n, a, x, y )
+    use cudafor
+    real, device, dimension(*) :: x, y
+    real :: a
+    integer :: n, ierr
+    ! call the kernel
+    call ksaxpy<<<(n+63)/64, 64>>>( n, a, x, y )
+    ierr = cudadevicesynchronize()
+end subroutine
+
+program run
+  use cudafor
+  implicit none
+  integer :: n = 1000, ierr
+  real :: a = 1.0
+  real, dimension(:), allocatable :: x, y
+  real, device, dimension(:), allocatable :: x_d, y_d
+  allocate(x(n), y(n))
+  allocate(x_d(n), y_d(n))
+  x = 2.0
+  y = 3.0
+  x_d = x
+  y_d = y
+  call solve( n, a, x_d, y_d )
+  ierr = cudadevicesynchronize()
+  y = y_d
+  write(*,*), y
+  deallocate(x_d,y_d)
+  deallocate(x,y)
+end program run
