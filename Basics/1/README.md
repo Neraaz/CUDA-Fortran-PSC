@@ -1,4 +1,4 @@
-module load nvfortran
+module load nvhpc
 
 nvfortran -cuda mod.f90 prog.f90 -o device
 
