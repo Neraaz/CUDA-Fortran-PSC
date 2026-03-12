@@ -10,7 +10,7 @@ FC    := nvfortran
 NVCC  := nvcc
 F90FLAGS := 
 LDLIBS_CPU := -lblas
-LDLIBS_GPU := -cuda -O3 -gpu=cc90,cuda12.9,lineinfo -cudalib=cublas -lstdc++
+LDLIBS_GPU := -lblas -cuda -O3 -gpu=cc90,cuda12.9,lineinfo -cudalib=cublas -lstdc++
 TARGET := test_exec
 
 # === Sources and objects ===

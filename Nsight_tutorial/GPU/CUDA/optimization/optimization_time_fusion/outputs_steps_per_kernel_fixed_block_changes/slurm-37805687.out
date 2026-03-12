@@ -1,0 +1,141 @@
++ module use -a /opt/modulefiles/preproduction
+++ /usr/share/lmod/lmod/libexec/lmod bash use -a /opt/modulefiles/preproduction
++ eval '__LMOD_REF_COUNT_MODULEPATH=/etc/scl/modulefiles:1\;/opt/modulefiles/production:1\;/opt/modulefiles/deprecated:1\;/usr/share/modulefiles:1\;/usr/share/modulefiles/Linux:1\;/usr/share/modulefiles/Core:1\;/usr/share/lmod/lmod/modulefiles/Core:1\;/opt/modulefiles/preproduction:2;' export '__LMOD_REF_COUNT_MODULEPATH;' 'MODULEPATH=/etc/scl/modulefiles:/opt/modulefiles/production:/opt/modulefiles/deprecated:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/opt/modulefiles/preproduction;' export 'MODULEPATH;' '_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXthbGxvY2F0aW9ucz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vYWxsb2NhdGlvbnMvMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJhbGxvY2F0aW9ucy8xLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbGxvY2F0aW9ucyIsfSxbInBzYy5hbGxvY2F0aW9ucy51c2VyIl09e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL3BzYy5hbGxvY2F0aW9ucy51c2VyLzEuMC5sdWEi;' export '_ModuleTable001_;' '_ModuleTable002_=LFsiZnVsbE5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIvMS4wIixbImxvYWRPcmRlciJdPTIscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIiLH0sfSxtcGF0aEE9eyIvZXRjL3NjbC9tb2R1bGVmaWxlcyIsIi9vcHQvbW9kdWxlZmlsZXMvcHJvZHVjdGlvbiIsIi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwiL3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsIi9vcHQvbW9kdWxlZmlsZXMvcHJlcHJv;' export '_ModuleTable002_;' '_ModuleTable003_=ZHVjdGlvbiIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvZXRjL3NjbC9tb2R1bGVmaWxlczovb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb246L29wdC9tb2R1bGVmaWxlcy9wcmVwcm9kdWN0aW9uOi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZDovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0=;' export '_ModuleTable003_;' '_ModuleTable_Sz_=3;' export '_ModuleTable_Sz_;'
+++ __LMOD_REF_COUNT_MODULEPATH='/etc/scl/modulefiles:1;/opt/modulefiles/production:1;/opt/modulefiles/deprecated:1;/usr/share/modulefiles:1;/usr/share/modulefiles/Linux:1;/usr/share/modulefiles/Core:1;/usr/share/lmod/lmod/modulefiles/Core:1;/opt/modulefiles/preproduction:2'
+++ export __LMOD_REF_COUNT_MODULEPATH
+++ MODULEPATH=/etc/scl/modulefiles:/opt/modulefiles/production:/opt/modulefiles/deprecated:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/opt/modulefiles/preproduction
+++ export MODULEPATH
+++ _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXthbGxvY2F0aW9ucz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vYWxsb2NhdGlvbnMvMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJhbGxvY2F0aW9ucy8xLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbGxvY2F0aW9ucyIsfSxbInBzYy5hbGxvY2F0aW9ucy51c2VyIl09e1siZm4iXT0iL29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uL3BzYy5hbGxvY2F0aW9ucy51c2VyLzEuMC5sdWEi
+++ export _ModuleTable001_
+++ _ModuleTable002_=LFsiZnVsbE5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIvMS4wIixbImxvYWRPcmRlciJdPTIscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0icHNjLmFsbG9jYXRpb25zLnVzZXIiLH0sfSxtcGF0aEE9eyIvZXRjL3NjbC9tb2R1bGVmaWxlcyIsIi9vcHQvbW9kdWxlZmlsZXMvcHJvZHVjdGlvbiIsIi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwiL3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsIi9vcHQvbW9kdWxlZmlsZXMvcHJlcHJv
+++ export _ModuleTable002_
+++ _ModuleTable003_=ZHVjdGlvbiIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvZXRjL3NjbC9tb2R1bGVmaWxlczovb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb246L29wdC9tb2R1bGVmaWxlcy9wcmVwcm9kdWN0aW9uOi9vcHQvbW9kdWxlZmlsZXMvZGVwcmVjYXRlZDovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0=
+++ export _ModuleTable003_
+++ _ModuleTable_Sz_=3
+++ export _ModuleTable_Sz_
+++ : -s sh
++ eval
++ ret=0
++ /usr/share/lmod/8.2.7/libexec/log_modules use -a /opt/modulefiles/preproduction
++ return 0
++ module load nvhpc/25.5
+++ /usr/share/lmod/lmod/libexec/lmod bash load nvhpc/25.5
+-------------------------------------------------------------------------------
+There are messages associated with the following module(s):
+-------------------------------------------------------------------------------
+
+nvhpc/25.5:
+   Warning - Please note that you are using a preproduction module provided
+   for testing purposes. Please report any issues to PSC User Services at
+   help@psc.edu.
+
+-------------------------------------------------------------------------------
+
++ eval 'CC=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/bin/nvc;' export 'CC;' '__LMOD_REF_COUNT_CPATH=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/extras/qd/include/qd:1\;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nvshmem/include:1\;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nccl/include:1\;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/math_libs/include:1;' export '__LMOD_REF_COUNT_CPATH;' 'CPATH=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/extras/qd/include/qd:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nvshmem/include:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nccl/include:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/math_libs/include;' export 'CPATH;' '__LMOD_REF_COUNT_CPLUS_INCLUDE_PATH=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/extras/qd/include/qd:1\;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nvshmem/include:1\;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nccl/include:1\;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/math_libs/include:1;' export '__LMOD_REF_COUNT_CPLUS_INCLUDE_PATH;' 'CPLUS_INCLUDE_PATH=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/extras/qd/include/qd:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nvshmem/include:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nccl/include:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/math_libs/include;' export 'CPLUS_INCLUDE_PATH;' 'CPP=cpp;' export 'CPP;' 'CXX=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/bin/nvc++;' export 'CXX;' '__LMOD_REF_COUNT_C_INCLUDE_PATH=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/extras/qd/include/qd:1\;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nvshmem/include:1\;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nccl/include:1\;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/math_libs/include:1;' export '__LMOD_REF_COUNT_C_INCLUDE_PATH;' 'C_INCLUDE_PATH=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/extras/qd/include/qd:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nvshmem/include:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nccl/include:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/math_libs/include;' export 'C_INCLUDE_PATH;' 'F77=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/bin/nvfortran;' export 'F77;' 'F90=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/bin/nvfortran;' export 'F90;' 'FC=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/bin/nvfortran;' export 'FC;' '__LMOD_REF_COUNT_LD_LIBRARY_PATH=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nvshmem/lib:1\;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nccl/lib:1\;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/math_libs/lib64:1\;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/lib:1\;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/extras/qd/lib:1\;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/cuda/lib64:1;' export '__LMOD_REF_COUNT_LD_LIBRARY_PATH;' 'LD_LIBRARY_PATH=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nvshmem/lib:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nccl/lib:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/math_libs/lib64:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/lib:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/extras/qd/lib:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/cuda/lib64;' export 'LD_LIBRARY_PATH;' 'LMOD_FAMILY_NVHPC=nvhpc;' export 'LMOD_FAMILY_NVHPC;' 'LMOD_FAMILY_NVHPC_VERSION=25.5;' export 'LMOD_FAMILY_NVHPC_VERSION;' '__LMOD_REF_COUNT_LOADEDMODULES=allocations/1.0:1\;psc.allocations.user/1.0:1\;nvhpc/25.5:1;' export '__LMOD_REF_COUNT_LOADEDMODULES;' 'LOADEDMODULES=allocations/1.0:psc.allocations.user/1.0:nvhpc/25.5;' export 'LOADEDMODULES;' '__LMOD_REF_COUNT_MANPATH=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/man:1\;/usr/share/lmod/lmod/share/man:1\;/opt/puppetlabs/puppet/share/man:1;' export '__LMOD_REF_COUNT_MANPATH;' 'MANPATH=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/man:/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man;' export 'MANPATH;' 'MODULEPATH=/etc/scl/modulefiles:/opt/modulefiles/production:/opt/modulefiles/deprecated:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/opt/modulefiles/preproduction;' export 'MODULEPATH;' 'NVHPC=/opt/packages/nvhpc/v25.5;' export 'NVHPC;' 'NVHPC_ROOT=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5;' export 'NVHPC_ROOT;' '__LMOD_REF_COUNT_PATH=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/extras/qd/bin:1\;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/mpi/bin:1\;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/bin:1\;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/cuda/bin:1\;/jet/home/nnepal/.local/bin:1\;/jet/home/nnepal/bin:1\;/ocean/projects/pscstaff/nnepal/anaconda3/bin:1\;/ocean/projects/pscstaff/nnepal/anaconda3/condabin:1\;/opt/packages/psc.allocations.user/bin:1\;/opt/packages/allocations/bin:1\;/usr/local/bin:1\;/usr/bin:1\;/usr/local/sbin:1\;/usr/sbin:1\;/opt/packages/interact/bin:1\;/opt/puppetlabs/bin:1;' export '__LMOD_REF_COUNT_PATH;' 'PATH=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/extras/qd/bin:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/mpi/bin:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/bin:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/cuda/bin:/jet/home/nnepal/.local/bin:/jet/home/nnepal/bin:/ocean/projects/pscstaff/nnepal/anaconda3/bin:/ocean/projects/pscstaff/nnepal/anaconda3/condabin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin;' export 'PATH;' '__LMOD_REF_COUNT__LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:1\;/opt/modulefiles/production/psc.allocations.user/1.0.lua:1\;/opt/modulefiles/preproduction/nvhpc/25.5.lua:1;' export '__LMOD_REF_COUNT__LMFILES_;' '_LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:/opt/modulefiles/production/psc.allocations.user/1.0.lua:/opt/modulefiles/preproduction/nvhpc/25.5.lua;' export '_LMFILES_;' '_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXtbIm52aHBjIl09Im52aHBjIix9LG1UPXthbGxvY2F0aW9ucz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vYWxsb2NhdGlvbnMvMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJhbGxvY2F0aW9ucy8xLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbGxvY2F0aW9ucyIsfSxudmhwYz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3ByZXByb2R1Y3Rpb24vbnZocGMvMjUuNS5sdWEiLFsiZnVsbE5hbWUi;' export '_ModuleTable001_;' '_ModuleTable002_=XT0ibnZocGMvMjUuNSIsWyJsb2FkT3JkZXIiXT0zLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09Im52aHBjLzI1LjUiLH0sWyJwc2MuYWxsb2NhdGlvbnMudXNlciJdPXtbImZuIl09Ii9vcHQvbW9kdWxlZmlsZXMvcHJvZHVjdGlvbi9wc2MuYWxsb2NhdGlvbnMudXNlci8xLjAubHVhIixbImZ1bGxOYW1lIl09InBzYy5hbGxvY2F0aW9ucy51c2VyLzEuMCIsWyJsb2FkT3JkZXIiXT0yLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09InBzYy5hbGxvY2F0aW9ucy51c2VyIix9LH0sbXBhdGhBPXsiL2V0Yy9zY2wvbW9kdWxlZmlsZXMiLCIvb3B0L21vZHVsZWZp;' export '_ModuleTable002_;' '_ModuleTable003_=bGVzL3Byb2R1Y3Rpb24iLCIvb3B0L21vZHVsZWZpbGVzL2RlcHJlY2F0ZWQiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzIiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLCIvb3B0L21vZHVsZWZpbGVzL3ByZXByb2R1Y3Rpb24iLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL2V0Yy9zY2wvbW9kdWxlZmlsZXM6L29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uOi9vcHQvbW9kdWxlZmlsZXMvcHJlcHJvZHVjdGlvbjovb3B0L21vZHVsZWZpbGVzL2RlcHJlY2F0ZWQ6L3Vzci9zaGFyZS9tb2R1bGVmaWxlczovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xp;' export '_ModuleTable003_;' '_ModuleTable004_=bnV4Oi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZTovdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9;' export '_ModuleTable004_;' '_ModuleTable_Sz_=4;' export '_ModuleTable_Sz_;' '__LMOD_STACK_CC=L29wdC9wYWNrYWdlcy9udmhwYy92MjUuNS9MaW51eF94ODZfNjQvMjUuNS9jb21waWxlcnMvYmluL252Yw==;' export '__LMOD_STACK_CC;' '__LMOD_STACK_CPP=Y3Bw;' export '__LMOD_STACK_CPP;' '__LMOD_STACK_CXX=L29wdC9wYWNrYWdlcy9udmhwYy92MjUuNS9MaW51eF94ODZfNjQvMjUuNS9jb21waWxlcnMvYmluL252Yysr;' export '__LMOD_STACK_CXX;' '__LMOD_STACK_F77=L29wdC9wYWNrYWdlcy9udmhwYy92MjUuNS9MaW51eF94ODZfNjQvMjUuNS9jb21waWxlcnMvYmluL252Zm9ydHJhbg==;' export '__LMOD_STACK_F77;' '__LMOD_STACK_F90=L29wdC9wYWNrYWdlcy9udmhwYy92MjUuNS9MaW51eF94ODZfNjQvMjUuNS9jb21waWxlcnMvYmluL252Zm9ydHJhbg==;' export '__LMOD_STACK_F90;' '__LMOD_STACK_FC=L29wdC9wYWNrYWdlcy9udmhwYy92MjUuNS9MaW51eF94ODZfNjQvMjUuNS9jb21waWxlcnMvYmluL252Zm9ydHJhbg==;' export '__LMOD_STACK_FC;' '__LMOD_STACK_NVHPC=L29wdC9wYWNrYWdlcy9udmhwYy92MjUuNQ==;' export '__LMOD_STACK_NVHPC;' '__LMOD_STACK_NVHPC_ROOT=L29wdC9wYWNrYWdlcy9udmhwYy92MjUuNS9MaW51eF94ODZfNjQvMjUuNQ==;' export '__LMOD_STACK_NVHPC_ROOT;'
+++ CC=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/bin/nvc
+++ export CC
+++ __LMOD_REF_COUNT_CPATH='/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/extras/qd/include/qd:1;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nvshmem/include:1;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nccl/include:1;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/math_libs/include:1'
+++ export __LMOD_REF_COUNT_CPATH
+++ CPATH=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/extras/qd/include/qd:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nvshmem/include:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nccl/include:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/math_libs/include
+++ export CPATH
+++ __LMOD_REF_COUNT_CPLUS_INCLUDE_PATH='/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/extras/qd/include/qd:1;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nvshmem/include:1;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nccl/include:1;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/math_libs/include:1'
+++ export __LMOD_REF_COUNT_CPLUS_INCLUDE_PATH
+++ CPLUS_INCLUDE_PATH=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/extras/qd/include/qd:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nvshmem/include:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nccl/include:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/math_libs/include
+++ export CPLUS_INCLUDE_PATH
+++ CPP=cpp
+++ export CPP
+++ CXX=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/bin/nvc++
+++ export CXX
+++ __LMOD_REF_COUNT_C_INCLUDE_PATH='/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/extras/qd/include/qd:1;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nvshmem/include:1;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nccl/include:1;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/math_libs/include:1'
+++ export __LMOD_REF_COUNT_C_INCLUDE_PATH
+++ C_INCLUDE_PATH=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/extras/qd/include/qd:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nvshmem/include:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nccl/include:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/math_libs/include
+++ export C_INCLUDE_PATH
+++ F77=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/bin/nvfortran
+++ export F77
+++ F90=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/bin/nvfortran
+++ export F90
+++ FC=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/bin/nvfortran
+++ export FC
+++ __LMOD_REF_COUNT_LD_LIBRARY_PATH='/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nvshmem/lib:1;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nccl/lib:1;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/math_libs/lib64:1;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/lib:1;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/extras/qd/lib:1;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/cuda/lib64:1'
+++ export __LMOD_REF_COUNT_LD_LIBRARY_PATH
+++ LD_LIBRARY_PATH=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nvshmem/lib:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/nccl/lib:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/math_libs/lib64:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/lib:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/extras/qd/lib:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/cuda/lib64
+++ export LD_LIBRARY_PATH
+++ LMOD_FAMILY_NVHPC=nvhpc
+++ export LMOD_FAMILY_NVHPC
+++ LMOD_FAMILY_NVHPC_VERSION=25.5
+++ export LMOD_FAMILY_NVHPC_VERSION
+++ __LMOD_REF_COUNT_LOADEDMODULES='allocations/1.0:1;psc.allocations.user/1.0:1;nvhpc/25.5:1'
+++ export __LMOD_REF_COUNT_LOADEDMODULES
+++ LOADEDMODULES=allocations/1.0:psc.allocations.user/1.0:nvhpc/25.5
+++ export LOADEDMODULES
+++ __LMOD_REF_COUNT_MANPATH='/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/man:1;/usr/share/lmod/lmod/share/man:1;/opt/puppetlabs/puppet/share/man:1'
+++ export __LMOD_REF_COUNT_MANPATH
+++ MANPATH=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/man:/usr/share/lmod/lmod/share/man::/opt/puppetlabs/puppet/share/man
+++ export MANPATH
+++ MODULEPATH=/etc/scl/modulefiles:/opt/modulefiles/production:/opt/modulefiles/deprecated:/usr/share/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/opt/modulefiles/preproduction
+++ export MODULEPATH
+++ NVHPC=/opt/packages/nvhpc/v25.5
+++ export NVHPC
+++ NVHPC_ROOT=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5
+++ export NVHPC_ROOT
+++ __LMOD_REF_COUNT_PATH='/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/extras/qd/bin:1;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/mpi/bin:1;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/bin:1;/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/cuda/bin:1;/jet/home/nnepal/.local/bin:1;/jet/home/nnepal/bin:1;/ocean/projects/pscstaff/nnepal/anaconda3/bin:1;/ocean/projects/pscstaff/nnepal/anaconda3/condabin:1;/opt/packages/psc.allocations.user/bin:1;/opt/packages/allocations/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/opt/packages/interact/bin:1;/opt/puppetlabs/bin:1'
+++ export __LMOD_REF_COUNT_PATH
+++ PATH=/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/extras/qd/bin:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/comm_libs/mpi/bin:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/compilers/bin:/opt/packages/nvhpc/v25.5/Linux_x86_64/25.5/cuda/bin:/jet/home/nnepal/.local/bin:/jet/home/nnepal/bin:/ocean/projects/pscstaff/nnepal/anaconda3/bin:/ocean/projects/pscstaff/nnepal/anaconda3/condabin:/opt/packages/psc.allocations.user/bin:/opt/packages/allocations/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/packages/interact/bin:/opt/puppetlabs/bin
+++ export PATH
+++ __LMOD_REF_COUNT__LMFILES_='/opt/modulefiles/production/allocations/1.0.lua:1;/opt/modulefiles/production/psc.allocations.user/1.0.lua:1;/opt/modulefiles/preproduction/nvhpc/25.5.lua:1'
+++ export __LMOD_REF_COUNT__LMFILES_
+++ _LMFILES_=/opt/modulefiles/production/allocations/1.0.lua:/opt/modulefiles/production/psc.allocations.user/1.0.lua:/opt/modulefiles/preproduction/nvhpc/25.5.lua
+++ export _LMFILES_
+++ _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXtbIm52aHBjIl09Im52aHBjIix9LG1UPXthbGxvY2F0aW9ucz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3Byb2R1Y3Rpb24vYWxsb2NhdGlvbnMvMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJhbGxvY2F0aW9ucy8xLjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJhbGxvY2F0aW9ucyIsfSxudmhwYz17WyJmbiJdPSIvb3B0L21vZHVsZWZpbGVzL3ByZXByb2R1Y3Rpb24vbnZocGMvMjUuNS5sdWEiLFsiZnVsbE5hbWUi
+++ export _ModuleTable001_
+++ _ModuleTable002_=XT0ibnZocGMvMjUuNSIsWyJsb2FkT3JkZXIiXT0zLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09Im52aHBjLzI1LjUiLH0sWyJwc2MuYWxsb2NhdGlvbnMudXNlciJdPXtbImZuIl09Ii9vcHQvbW9kdWxlZmlsZXMvcHJvZHVjdGlvbi9wc2MuYWxsb2NhdGlvbnMudXNlci8xLjAubHVhIixbImZ1bGxOYW1lIl09InBzYy5hbGxvY2F0aW9ucy51c2VyLzEuMCIsWyJsb2FkT3JkZXIiXT0yLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09InBzYy5hbGxvY2F0aW9ucy51c2VyIix9LH0sbXBhdGhBPXsiL2V0Yy9zY2wvbW9kdWxlZmlsZXMiLCIvb3B0L21vZHVsZWZp
+++ export _ModuleTable002_
+++ _ModuleTable003_=bGVzL3Byb2R1Y3Rpb24iLCIvb3B0L21vZHVsZWZpbGVzL2RlcHJlY2F0ZWQiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzIiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLCIvb3B0L21vZHVsZWZpbGVzL3ByZXByb2R1Y3Rpb24iLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL2V0Yy9zY2wvbW9kdWxlZmlsZXM6L29wdC9tb2R1bGVmaWxlcy9wcm9kdWN0aW9uOi9vcHQvbW9kdWxlZmlsZXMvcHJlcHJvZHVjdGlvbjovb3B0L21vZHVsZWZpbGVzL2RlcHJlY2F0ZWQ6L3Vzci9zaGFyZS9tb2R1bGVmaWxlczovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xp
+++ export _ModuleTable003_
+++ _ModuleTable004_=bnV4Oi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZTovdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9
+++ export _ModuleTable004_
+++ _ModuleTable_Sz_=4
+++ export _ModuleTable_Sz_
+++ __LMOD_STACK_CC=L29wdC9wYWNrYWdlcy9udmhwYy92MjUuNS9MaW51eF94ODZfNjQvMjUuNS9jb21waWxlcnMvYmluL252Yw==
+++ export __LMOD_STACK_CC
+++ __LMOD_STACK_CPP=Y3Bw
+++ export __LMOD_STACK_CPP
+++ __LMOD_STACK_CXX=L29wdC9wYWNrYWdlcy9udmhwYy92MjUuNS9MaW51eF94ODZfNjQvMjUuNS9jb21waWxlcnMvYmluL252Yysr
+++ export __LMOD_STACK_CXX
+++ __LMOD_STACK_F77=L29wdC9wYWNrYWdlcy9udmhwYy92MjUuNS9MaW51eF94ODZfNjQvMjUuNS9jb21waWxlcnMvYmluL252Zm9ydHJhbg==
+++ export __LMOD_STACK_F77
+++ __LMOD_STACK_F90=L29wdC9wYWNrYWdlcy9udmhwYy92MjUuNS9MaW51eF94ODZfNjQvMjUuNS9jb21waWxlcnMvYmluL252Zm9ydHJhbg==
+++ export __LMOD_STACK_F90
+++ __LMOD_STACK_FC=L29wdC9wYWNrYWdlcy9udmhwYy92MjUuNS9MaW51eF94ODZfNjQvMjUuNS9jb21waWxlcnMvYmluL252Zm9ydHJhbg==
+++ export __LMOD_STACK_FC
+++ __LMOD_STACK_NVHPC=L29wdC9wYWNrYWdlcy9udmhwYy92MjUuNQ==
+++ export __LMOD_STACK_NVHPC
+++ __LMOD_STACK_NVHPC_ROOT=L29wdC9wYWNrYWdlcy9udmhwYy92MjUuNS9MaW51eF94ODZfNjQvMjUuNQ==
+++ export __LMOD_STACK_NVHPC_ROOT
+++ : -s sh
++ eval
++ ret=0
++ /usr/share/lmod/8.2.7/libexec/log_modules load nvhpc/25.5
++ return 0
++ nsys profile -o nsys_30000_30000_5000_32 ./heat2d_30000_30000_5000_32
+Center temperature: 0.999931
+Elapsed time (s): 19.394328
+Grid: 30000 x 30000, Steps: 5000, block: 32, steps_per_kernel: 4
+Points updated: 4.500e+12
+Throughput (updates/sec): 2.320e+11
+Collecting data...
+Generating '/var/tmp/nsys-report-dc0b.qdstrm'
+[1/1] [0%                          ] nsys_30000_30000_5000_32.nsys-rep[1/1] [0%                          ] nsys_30000_30000_5000_32.nsys-rep[1/1] [6%                          ] nsys_30000_30000_5000_32.nsys-rep[1/1] [7%                          ] nsys_30000_30000_5000_32.nsys-rep[1/1] [8%                          ] nsys_30000_30000_5000_32.nsys-rep[1/1] [9%                          ] nsys_30000_30000_5000_32.nsys-rep[1/1] [====25%                     ] nsys_30000_30000_5000_32.nsys-rep[1/1] [========42%                 ] nsys_30000_30000_5000_32.nsys-rep[1/1] [=========43%                ] nsys_30000_30000_5000_32.nsys-rep[1/1] [=========44%                ] nsys_30000_30000_5000_32.nsys-rep[1/1] [=========45%                ] nsys_30000_30000_5000_32.nsys-rep[1/1] [=========46%                ] nsys_30000_30000_5000_32.nsys-rep[1/1] [==========47%               ] nsys_30000_30000_5000_32.nsys-rep[1/1] [===========53%              ] nsys_30000_30000_5000_32.nsys-rep[1/1] [============54%             ] nsys_30000_30000_5000_32.nsys-rep[1/1] [============55%             ] nsys_30000_30000_5000_32.nsys-rep[1/1] [============56%             ] nsys_30000_30000_5000_32.nsys-rep[1/1] [============57%             ] nsys_30000_30000_5000_32.nsys-rep[1/1] [=============58%            ] nsys_30000_30000_5000_32.nsys-rep[1/1] [=============59%            ] nsys_30000_30000_5000_32.nsys-rep[1/1] [=============60%            ] nsys_30000_30000_5000_32.nsys-rep[1/1] [==============61%           ] nsys_30000_30000_5000_32.nsys-rep[1/1] [==============62%           ] nsys_30000_30000_5000_32.nsys-rep[1/1] [==============63%           ] nsys_30000_30000_5000_32.nsys-rep[1/1] [==============64%           ] nsys_30000_30000_5000_32.nsys-rep[1/1] [===============65%          ] nsys_30000_30000_5000_32.nsys-rep[1/1] [=====================88%    ] nsys_30000_30000_5000_32.nsys-rep[1/1] [========================100%] nsys_30000_30000_5000_32.nsys-rep[1/1] [========================100%] nsys_30000_30000_5000_32.nsys-rep
+Generated:
+	/ocean/projects/pscstaff/nnepal/Nsight_tutorial/GPU/CUDA/blocksize/optimization_time_fusion/nsys_30000_30000_5000_32.nsys-rep
++ ncu --launch-count 2 -o ncu_30000_30000_5000_32 ./heat2d_30000_30000_5000_32
+==PROF== Connected to process 78946 (/ocean/projects/pscstaff/nnepal/Nsight_tutorial/GPU/CUDA/blocksize/optimization_time_fusion/heat2d_30000_30000_5000_32)
+==PROF== Profiling "heat_step_fused" - 0 (1/2): 0%....50%....100% - 10 passes
+==PROF== Profiling "heat_step_fused" - 1 (2/2): 0%....50%....100% - 10 passes
+Center temperature: 0.999931
+Elapsed time (s): 20.394605
+Grid: 30000 x 30000, Steps: 5000, block: 32, steps_per_kernel: 4
+Points updated: 4.500e+12
+Throughput (updates/sec): 2.206e+11
+==PROF== Disconnected from process 78946
+==PROF== Report: /ocean/projects/pscstaff/nnepal/Nsight_tutorial/GPU/CUDA/blocksize/optimization_time_fusion/ncu_30000_30000_5000_32.ncu-rep
